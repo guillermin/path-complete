@@ -7,18 +7,31 @@
     "autocomplete"
   ],
   "main": "./lib/path-complete.js",
-  "version": "0.1.11",
-  "directories": { "lib": "./lib" },
+  "version": "0.2.0",
+  "directories": {
+    "lib": "./lib"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
   "homepage": "https://github.com/tonylukasavage/path-complete",
   "author": {
     "name": "Tony Lukasavage",
     "email": "anthony.lukasavage@gmail.com"
   },
+  "contributors": [
+    {
+      "name": "Guillermo Aguirre de Cárcer",
+      "email": "guillermoaguirredecarcer@gmail.com"
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "git@github.com:tonylukasavage/path-complete.git"
   },
-  "dependencies": {},
+  "dependencies": {
+    "keypress": "^0.2.1"
+  },
   "engines": {
     "node": "*"
   }
